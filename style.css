@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project h2 {
+  margin: 0;
+}
+
+.project p {
+  margin: 5px 0 20px;
+}
